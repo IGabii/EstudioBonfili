@@ -1,0 +1,117 @@
+body{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family: calibri;
+    background-color: #fff;
+    color:#000;
+}
+
+:root{
+    --tema:#224e4f;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(255, 255, 255);
+    align-items: center;
+    font-size: 22px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.ul-item{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+ul.ul-item{
+    justify-content: space-between;
+}
+
+.ul-item a{
+    padding:0 70px 0 70px ;
+    color:#000;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.ul-item a:hover{
+    color:rgba(1, 1, 1, 0.8);
+    text-shadow: 0 0 10px rgba(12, 12, 12, 0.8);
+}
+
+
+img{
+    width: 190px;
+}
+.imagen{
+    filter:drop-shadow( 0px 4px 0.5px #000000);
+}
+
+.body-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:80px 0 0 0;
+    height: 70vh;
+    background-image:linear-gradient(to top,rgba(28, 75, 75, 0.7),rgba(8, 9, 10, 0.7)), url(https://images.pexels.com/photos/3771097/pexels-photo-3771097.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: bottom ;
+}
+
+.titulos-container{
+    font-size: 29px;
+    color:#f6f6f7;
+    text-align: center;
+}
+
+.titulos-container h2{
+    margin:0
+}
+
+.titulos-container h1{
+    margin:0 0 50px 0
+}
+
+.consultaYa{
+    text-decoration: none;
+    color:#fff;
+    border:solid #fff;
+    border-radius: 10px;
+    padding: 5px;
+    transition-duration: 0.5s;
+}
+
+a.consultaYa:hover{
+    transform: scale(1.1);
+    font-size: 30px;
+}
+
+.body-item{
+    margin-top:70px;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:90px;
+}
+
+.item{
+    width: 300px;
+    transition-duration: 0.5s;
+}
+
+.item:hover{
+    transform: scale(1.1);
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    color:var(--tema)
+}
