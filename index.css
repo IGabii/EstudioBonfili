@@ -310,6 +310,11 @@ a.botonServicio:hover{
 .sloganLogo2 h3{
     margin:0;
     color: var(--tema);
+    text-align: center;
+}
+
+.subtituloSlogan{
+    font-size: 15px;
 }
 
 .grid-area2{
@@ -412,3 +417,78 @@ a.botonServicio:hover{
 .footerBottom h3{
     margin:0
 }
+
+/*--------------------------------------------------------*/
+.formulario-container{
+    padding-top: 100px;
+}
+
+.formulario-item{
+    display: grid;
+    grid-template-areas:
+    "tectoForm formulario";
+    grid-template-columns: 1fr 1fr;
+}
+
+.textoFormulario{
+    grid-area:textoForm ;
+}
+
+.inputs{
+    grid-area: formulario;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:solid #000;
+    margin: 0 100px 0 100px;
+    padding: 4px 0 20px 0;
+    border-radius: 50px;
+    background-color: var(--tema);
+    color:#fff;
+}
+
+#nombre{
+    width: 350px;
+    height: 30px;
+    margin-bottom:20px ;
+    border-radius: 10px;
+}
+
+#numeros{
+    width: 350px;
+    height: 30px;
+    margin-bottom:20px ;
+    border-radius: 10px;
+}
+
+#email{
+    width: 350px;
+    height: 30px;
+    margin-bottom:20px ;
+    border-radius: 10px;
+}
+
+#mensaje{
+    width: 350px;
+    height: 90px;
+    margin-bottom:20px ;
+    border-radius: 10px;
+}
+
+label{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
