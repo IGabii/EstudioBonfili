@@ -438,14 +438,7 @@ a.botonServicio:hover{
     grid-area: formulario;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    border:solid #000;
-    margin: 0 100px 0 100px;
-    padding: 4px 0 20px 0;
-    border-radius: 50px;
-    background-color: var(--tema);
-    color:#fff;
 }
 
 #nombre{
@@ -478,6 +471,43 @@ a.botonServicio:hover{
 
 label{
     display: flex;
+}
+
+
+/*--------------------------------------*/
+.exito-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 90px;
+    color:var(--tema)
+}
+
+.iconExito{
+    width: 100px;
+    height: 100px;
+    color:var(--tema);
+    filter:drop-shadow(2px 3px 4px #000)
+}
+
+.aExito-container{
+    margin-top:30px;
+    transition-duration:0.5s;
+}
+
+.a-exito{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    color:#fff;
+    background-color: var(--tema);
+    border-radius: 10px;
+}
+
+.aExito-container:hover{
+    transform: scale(1.1);
 }
 
 
