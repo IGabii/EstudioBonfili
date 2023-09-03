@@ -13,10 +13,12 @@
     <header>
         <nav class="menu-lateral">
             <div class="btn-expandir">
-                <i class="bi bi-list" id="btn-exp"></i>
-            </div>
-            <div class="logo-responsive">
-                <img src="galeria/logo.png" >
+                <div class="i">
+                    <i class="bi bi-list" id="btn-exp"></i>
+                </div>
+                <div class="l">
+                    <img src="galeria/logo.png" class="logo-responsive">
+                </div>
             </div>
             <ul>
                 <li class="item-menu">
@@ -60,33 +62,42 @@
         </div>
         <div class="tiposServicios-container-responsive">
             <div class="contorno1-responsive">
-                <div class="servicios-asesoramiento-responsive">
-                    <h2>Asesoramiento Integral y Gratuito</h2>
-                    <p>Evaluamos y analizamos la responsabilidad del siniestro denunciado, determinando el grado de culpabilidad de las partes.</p>
+                <div data-aos="flip-down">
+                    <div class="servicios-asesoramiento-responsive">
+                        <h2>Asesoramiento Integral y Gratuito</h2>
+                        <p>Evaluamos y analizamos la responsabilidad del siniestro denunciado, determinando el grado de culpabilidad de las partes.</p>
+                    </div>
                 </div>
+                
             </div>
             <div class="contorno2-responsive">
-                <div class="servicios-acuerdos-responsive">
-                    <h2>Acuerdos Extrajudiciales</h2>
-                    <p>Intentamos solucionar el conflicto por esta vía evitando mayores costos para el cliente. Contamos para ello con excelentes vínculos con las Compañías Aseguradoras.</p>
+                <div data-aos="flip-down">
+                    <div class="servicios-acuerdos-responsive">
+                        <h2>Acuerdos Extrajudiciales</h2>
+                        <p>Intentamos solucionar el conflicto por esta vía evitando mayores costos para el cliente. Contamos para ello con excelentes vínculos con las Compañías Aseguradoras.</p>
+                    </div>
                 </div>
             </div>
             <div class="contorno3-responsive">
-                <div class="servicios-mediacion-responsive">
-                    <h2>Mediación</h2>
-                    <p>En esta instancia ofrecemos el patrocinio de profesionales quienes mediante eficaces técnicas de transacción concretan la conciliación en los plazos más breves posibles.</p>
+                <div data-aos="flip-down">
+                    <div class="servicios-mediacion-responsive">
+                        <h2>Mediación</h2>
+                        <p>En esta instancia ofrecemos el patrocinio de profesionales quienes mediante eficaces técnicas de transacción concretan la conciliación en los plazos más breves posibles.</p>
+                    </div>
                 </div>
             </div>
             <div class="contorno4-responsive">
-                <div class="servicios-procesoJudicial-responsive">
-                    <h2>Proceso Judicial</h2>
-                    <p>Brindamos asesoría legal experta en una variedad de casos, para asegurarnos de estar a tu lado cuando más nos necesitas."</p>
-                </div>
+                <div data-aos="flip-down">
+                    <div class="servicios-procesoJudicial-responsive">
+                        <h2>Proceso Judicial</h2>
+                        <p>Brindamos asesoría legal experta en una variedad de casos, para asegurarnos de estar a tu lado cuando más nos necesitas."</p>
+                    </div>
+                </div>            
             </div>
         </div>
         <div class="tiposServicios-container">
             <div class="contorno1">
-                <div data-aos="fade-right">
+                <div data-aos="flip-down">
                     <div class="servicios-asesoramiento">
                         <h2>Asesoramiento Integral y Gratuito</h2>
                         <p>Evaluamos y analizamos la responsabilidad del siniestro denunciado, determinando el grado de culpabilidad de las partes.</p>
@@ -94,7 +105,7 @@
                 </div>
             </div>
             <div class="contorno2">
-                <div data-aos="fade-left">
+                <div data-aos="flip-down">
                     <div class="servicios-acuerdos">
                         <h2>Acuerdos Extrajudiciales</h2>
                         <p>Intentamos solucionar el conflicto por esta vía evitando mayores costos para el cliente. Contamos para ello con excelentes vínculos con las Compañías Aseguradoras.</p>
@@ -103,7 +114,7 @@
                 
             </div>
             <div class="contorno3">
-                <div data-aos="fade-right">
+                <div data-aos="flip-down">
                     <div class="servicios-mediacion">
                         <h2>Mediación</h2>
                         <p>En esta instancia ofrecemos el patrocinio de profesionales quienes mediante eficaces técnicas de transacción concretan la conciliación en los plazos más breves posibles.</p>
@@ -111,7 +122,7 @@
                 </div>
             </div>
             <div class="contorno4">
-                <div data-aos="fade-left">
+                <div data-aos="flip-down">
                     <div class="servicios-procesoJudicial">
                         <h2>Proceso Judicial</h2>
                         <p>Brindamos asesoría legal experta en una variedad de casos, para asegurarnos de estar a tu lado cuando más nos necesitas."</p>
@@ -200,7 +211,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init({
-            duration:1000
+            duration:1500
         });
     </script>
 </body>
