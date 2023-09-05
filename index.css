@@ -336,6 +336,7 @@ a.botonServicio:hover{
     display: flex;
     align-items: center;
     font-size: 14px;
+    text-decoration: none;
 }
 
 .iconNum h3{
